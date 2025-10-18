@@ -1,16 +1,39 @@
-# React + Vite
+# Introduction to React — Full Stack Open (Part 1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This section marks my hands-on experience with **React**, where I learnt how modern web apps use **JavaScript logic** to dynamically render content.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  What I Learned
 
-## React Compiler
+- **Project setup with Vite:**  
+  I initialized my first React app using Vite — a faster, modern alternative to Create React App.  
+  It gave me an immediate look at how modular React projects are structured.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Rendering with JavaScript instead of HTML:**  
+  Instead of editing the HTML file directly, I learned that React uses **JavaScript functions** and **JSX** to render elements into the DOM.
 
-## Expanding the ESLint configuration
+- **JSX syntax and dynamic values:**  
+  Discovered that curly braces `{}` let you insert **JavaScript expressions** directly into JSX.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Using the browser console:**  
+  Observing how React components run and re-render through the console helped me understand what happens under the hood.
+
+
+- **Props and data flow:**  
+  Learned how to pass data from parent to child components using **props** 
+
+- **Avoid rendering objects directly:**  
+  React cannot render objects to the DOM. I learned to instead display their **specific fields or map over arrays** when necessary.
+
+---
+
+
+## 🧩 Related Files
+- `App.jsx` — main component containing course data  
+- `index.jsx` — renders the app into the DOM
+
+---
+
+ *Full Stack Open – Part 1: Introduction to React*  
+ [Back to main course repository](../../README.md)

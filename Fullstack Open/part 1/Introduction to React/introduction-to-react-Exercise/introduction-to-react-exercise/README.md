@@ -1,16 +1,30 @@
-# React + Vite
+#  Exercise — Component Refactoring & Props
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This exercise focused on **thinking modularly** — taking a single, large component and breaking it down into smaller, reusable pieces.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What I Learned
 
-## React Compiler
+- **Modular thinking:**  
+  Instead of keeping all logic and markup inside one big component (`App`), I learned to separate it into smaller components like `Header`, `Content`, `Part`, and `Total`.  
+  Each one handles a specific responsibility — a key principle in React and clean code design.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Passing data with props:**  
+  Discovered how to share information between components through **props**, which flow from parent to child.  
+  This clarified how data moves in React apps and how each component renders based on what it receives.
 
-## Expanding the ESLint configuration
+- **Render hierarchy:**  
+  Understood that rendering happens in a **top-down hierarchy** — the parent (`App`) controls what children render by passing data.  
+  This mental model made React’s re-render logic start to make sense.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Personal Reflection
+I learnt to  **structured components that communicate** by 
+breaking things down modularly making it more logical
+
+---
+
+ *Full Stack Open – Part 1: Course Information, Step 2*  
+ [Back to Part 1 Overview](../README.md)
