@@ -27,4 +27,3 @@ breaking things down modularly making it more logical
 ---
 
  *Full Stack Open – Part 1: Course Information, Step 2*  
- [Back to Part 1 Overview](../README.md)

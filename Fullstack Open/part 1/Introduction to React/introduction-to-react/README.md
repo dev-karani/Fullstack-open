@@ -36,4 +36,3 @@ This section marks my hands-on experience with **React**, where I learnt how mod
 ---
 
  *Full Stack Open – Part 1: Introduction to React*  
- [Back to main course repository](../../README.md)
