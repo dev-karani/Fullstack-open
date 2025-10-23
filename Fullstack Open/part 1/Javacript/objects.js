@@ -24,3 +24,5 @@ console.log(object1[fieldname])
 
 object1.address = 'Helsinki'
 object1['secret number'] = 12312
+console.log(object1.address )
+console.log(object1['secret number'])

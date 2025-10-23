@@ -1,0 +1,7 @@
+App
+ ├── Header (gets: course)
+ ├── Content (gets: all parts and exercises)
+ │     ├── Part (gets: part1, exercises1)
+ │     ├── Part (gets: part2, exercises2)
+ │     └── Part (gets: part3, exercises3)
+ └── Total (gets: exercises1, exercises2, exercises3)
