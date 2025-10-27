@@ -17,7 +17,8 @@ const Hello = (props) => {
 }
 
 //level 2
-///ichanged the function nmae not to bug since they aall are the same
+//destructuring variable assignment
+///i changed the function nmae not to bug since they aall are the same
 const pello = (props) => {
 
   const { name, age } = props
@@ -32,6 +33,7 @@ const pello = (props) => {
 }
 
 //level3
+//destructuring te object itself 
 const tello = ({ name, age }) => {
   const bornYear = () => new Date().getFullYear() - age
 
