@@ -53,11 +53,11 @@ const App = () => {
   }
 
   const handleRightClick = () => {
-    setAll(allClicks.concat('R'))
+    setAll(allClicks.concat('R'));
     const updatedRight = right + 1;
     setRight(updatedRight);
     setTotal(left + updatedRight);
-  }
+  };
 
   return (
     <div>
