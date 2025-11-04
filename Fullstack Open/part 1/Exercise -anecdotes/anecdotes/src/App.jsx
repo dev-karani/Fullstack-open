@@ -18,8 +18,9 @@ const App = () => {
   
 
   const randomHandler = () => {
-    const newSelected = Math.floor(Math.random() * anecdotes.length)
-    setSelected(newSelected)
+    // const newSelected = Math.floor(Math.random() * anecdotes.length)
+    setSelected(Math.floor(Math.random() * anecdotes.length)
+)
   }
 
   const voteHandler = () => {
@@ -33,7 +34,7 @@ const App = () => {
       <p>has {votes[selected]} votes</p>
       <button onClick={voteHandler}>vote</button>
       <button onClick={randomHandler}>next anecdote</button>
-<MostVotes votes={votes} anecdotes={anecdotes} />
+      <MostVotes votes={votes} anecdotes={anecdotes} />
     </div>
   )
 }
