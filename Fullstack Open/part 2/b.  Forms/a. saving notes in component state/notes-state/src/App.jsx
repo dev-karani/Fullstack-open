@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Note from './components/Note'
+import Note from './components/note'
 
 //continued from destructuring
 //to update new notes, we pass them into usestate variable
@@ -22,7 +22,7 @@ const App = (props) => {
            <Note key={note.id} note={note}/>
            )}
       </ul>
-      <form action={addNote}>
+      <form onSubmit={addNote}>
         <input/>
         <button type='submit'>Save</button>
       </form>
