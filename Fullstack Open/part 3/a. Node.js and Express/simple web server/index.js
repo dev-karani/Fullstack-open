@@ -4,7 +4,7 @@ const app = express()
 const cors = require('cors')
 
 app.use(express.json())
-app.arguments(cors())
+app.use(cors())
 
 let notes = [
   {
